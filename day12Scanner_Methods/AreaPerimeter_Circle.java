@@ -11,7 +11,7 @@ public class AreaPerimeter_Circle {
         double area=3.14*radius*radius;
         double perimeter=2*3.14*radius;
 
-        System.out.println("Area of circle is: "+area+"\nPerimeter of circle is:"+perimeter);
+        System.out.println("AreaPerimeter of circle is: "+area+"\nPerimeter of circle is:"+perimeter);
 
 scan.close();
 

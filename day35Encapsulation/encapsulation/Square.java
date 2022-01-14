@@ -44,13 +44,13 @@ public class Square {
 				Encapsulate all the fields
 
 					Condition:
-						side of the square should be negative
+						side of the Square should be negative
 
 				Add a constructor that allows user to set all the fields when the object is created.
 								(If the arguments not valid it should not be set to the instances)
 
 				Methods:
-					calcArea(): returns the area of square
-					calcPerimeter(): returns the perimeter of square
-					toString(): can display the side, area, perimeter of square when object is passed in print statement
+					calcArea(): returns the area of Square
+					calcPerimeter(): returns the perimeter of Square
+					toString(): can display the side, area, perimeter of Square when object is passed in print statement
  */
