@@ -11,4 +11,6 @@ public class AreaOfSquare {
         int area=side*side;
         return area;
     }
-}
+
+    }
+
