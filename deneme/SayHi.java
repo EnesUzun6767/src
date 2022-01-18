@@ -2,6 +2,6 @@ package deneme;
 
 public class SayHi {
     public static void main(String[] args) {
-        System.out.println("merhaba dostum");
+        System.out.println("merhaba dostum ");
     }
 }
