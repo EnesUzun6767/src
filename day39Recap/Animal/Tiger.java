@@ -5,7 +5,7 @@ public class Tiger extends WildAnimal {
         super(name, breed, size, color, gender, age);
     }
 
-}
+
 
     @Override
     public void hunt() {

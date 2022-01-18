@@ -20,6 +20,7 @@ public class BreakfastTask2MoveZeros {
             numbers.add(0);
         }
         System.out.println(numbers);
+
     }
 }
 /*

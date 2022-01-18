@@ -24,6 +24,7 @@ if(valid){
     System.err.println("Invalid operation");
 }
     }
+
 }
 /* two numbers are given use switch statement to calculate the result of n1&n2 based
 on given operators.

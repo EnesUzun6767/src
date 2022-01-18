@@ -1,7 +1,5 @@
 package day32Constructor;
 
-import day26CustomMethodPractise.MergeArrays;
-
 public class Test {
     public Test(){
         System.out.println("A");
@@ -20,7 +18,7 @@ public class Test {
     }
 
     public static void main(String[] args) {
-        new Test(2.5);
+        new Test("123");
 
     }
 }

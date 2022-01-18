@@ -16,12 +16,12 @@ public class BrowserName {
 
         Note: MUST use nested if
      */
-        String browser="chorome",result="";
+        String browser="chrome",result="";
 
-        if(browser=="chorome"||browser=="firefox"||browser=="opera"||
+        if(browser=="chrome"||browser=="firefox"||browser=="opera"||
         browser=="safari"||browser=="edge"){
-            if(browser=="chorome"){
-                result="Chorome is selected";
+            if(browser=="chrome"){
+                result="Chrome is selected";
             }else if(browser=="firefox") {
                 result = "firefox is selected";
             }else if(browser=="opera") {

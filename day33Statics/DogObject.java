@@ -7,5 +7,6 @@ public class DogObject {
         System.out.println(Dog.isFriendly);
         System.out.println(Dog.getNumberOfEyes);
         System.out.println(Dog.numberOfLegs);
+        dog1.play();
     }
 }
