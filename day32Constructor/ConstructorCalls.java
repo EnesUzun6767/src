@@ -20,8 +20,14 @@ public class ConstructorCalls {
 
     public static void main(String[] args) {
         ConstructorCalls obj1=new ConstructorCalls();
+
+
         System.out.println("--------------2nd call------------------");
+
+
         ConstructorCalls obj2=new ConstructorCalls(10);
+
+
         System.out.println("--------------3rd call------------------");
         ConstructorCalls obj3=new ConstructorCalls("Java");
     }

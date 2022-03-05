@@ -1,7 +1,7 @@
 package day39Recap.Animal;
 
 public class Cat extends FriendlyAnimal {
-    public Cat(String name, String breed, String size, String color, char gender, int age) {
+    public Cat(String name,String breed, String size, String color, char gender, int age) {
         super(name, breed, size, color, gender, age);
     }
 
@@ -39,4 +39,9 @@ public class Cat extends FriendlyAnimal {
     public void pet() {
         System.out.println(getName()+ "is my lovely pet" );
     }
+
+    public static void main(String[] args) {
+
+    }
 }
+

@@ -4,7 +4,8 @@ import java.util.ArrayList;
 
 public class aaaaa {
     public static void main(String[] args) {
-
+        Aa a=new Aa("");
+        System.out.println(a);
 
         ArrayList<Integer> nums = new ArrayList<>();
         nums.add(4);

@@ -4,6 +4,7 @@ public class AccessModifier {
     public static int publicData=100;//everyplace
     static int defaultData=200;//access modifier:default;
     private static int privateData=300;
+protected  static int defaultvalue=500;
 
     public static void method1(){
         System.out.println("Public");

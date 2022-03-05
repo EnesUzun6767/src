@@ -71,7 +71,18 @@ public class Animal {
         this.age = age;
     }
 
-    public Animal(String name, String breed, String size, String color, char gender, int age) {
+  /*  public Animal(String name, String breed, String size, String color, char gender, int age) {
+        this.name = name;
+        this.breed = breed;
+        this.size = size;
+        this.color = color;
+        this.gender = gender;
+        this.age = age;
+    }
+
+
+   */
+public Animal(String name, String breed, String size, String color, char gender, int age) {
         setName(name);
         setBreed(breed);
         setSize(size);
@@ -79,6 +90,8 @@ public class Animal {
         setGender(gender);
         setAge(age);
     }
+
+
 
     public void eat(){
 

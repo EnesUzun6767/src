@@ -2,13 +2,13 @@ package day07_Operators;
 
 public class Casting {
     public static void main(String[] args) {
-        float avarageScore=20.5f;
-        byte num1= (byte) avarageScore;
-        short num2= (short) avarageScore;
-        int num3= (int) avarageScore;
-        long num4= (long) avarageScore;
-        float num5=avarageScore;
-        double num6=avarageScore;
+        float averageScore =20.5f;
+        byte num1= (byte) averageScore;
+        short num2= (short) averageScore;
+        int num3= (int) averageScore;
+        long num4= (long) averageScore;
+        float num5= averageScore;
+        double num6= averageScore;
         System.out.println("num6 = " + num6);
         System.out.println("num5 = " + num5);
         System.out.println("num4 = " + num4);

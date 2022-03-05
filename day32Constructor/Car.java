@@ -43,5 +43,7 @@ public class Car {
       Car car2=new Car("nissan","muro",2022);
         System.out.println(car1);
         System.out.println(car2);
+        Car car3=new Car("audi");
+        System.out.println(car3);
     }
 }

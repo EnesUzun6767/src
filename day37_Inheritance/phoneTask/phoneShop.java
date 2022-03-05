@@ -9,6 +9,7 @@ public class phoneShop {
         Nokia nokia = new Nokia("3310", "small", 100, "blue");
 iphone.faceTime("enes67@gmail.com");
 nokia.selfDefence(123);
+        System.out.println(Samsung.hasBattery);
 
     }
 }

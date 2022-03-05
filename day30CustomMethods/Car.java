@@ -4,7 +4,7 @@ public class Car {
     public String brand;
     public String model;
     public String color;
-    public int year;
+    public int year=2005;
     public double price;
     public void setInfo(String carBrand,String carModel,String carColor,int carYear,double carPrice){
         brand=carBrand;

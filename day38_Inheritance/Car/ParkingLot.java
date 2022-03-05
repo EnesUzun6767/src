@@ -8,5 +8,6 @@ public class ParkingLot {
     tesla.start();
     BMW bmw=new BMW("a3",2020,12000,"blue",32111);
     bmw.start();
+    toyota.drive();
     }
 }

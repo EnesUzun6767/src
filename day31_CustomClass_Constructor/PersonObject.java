@@ -6,7 +6,7 @@ public class PersonObject {
         System.out.println(person1);
         Person person2=new Person("Semra",'F',37);
         System.out.println(person2);
-        person2.age = 30;
+       person2.age = 30;
         System.out.println(person2);
     }
 }

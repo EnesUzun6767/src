@@ -6,6 +6,7 @@ import java.util.Collections;
 
 public class WarmUpTasks {
     public static void main(String[] args) {
+
         ArrayList<Integer> numbers = new ArrayList<>();
         numbers.addAll(Arrays.asList(1,2,3,4,5,6,7,8));
 

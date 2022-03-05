@@ -1,7 +1,6 @@
 package Utility;
 
 import day34_GarbageCollection_AccesModifiers.AccessModifier;
-
 public class AccessModifierTest2 {
     public static void main(String[] args) {
         System.out.println(AccessModifier.publicData);
@@ -10,5 +9,8 @@ public class AccessModifierTest2 {
    AccessModifier.method1();
   // AccessModifier.method2();
  //  AccessModifier.method3();
+
     }
+
+
 }

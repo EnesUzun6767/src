@@ -11,7 +11,7 @@ public class Replace {
         System.out.println(s3);
 
         String s4="Java Java Java";
-        String s5=s4.replace(" Java ","Phyton");
+        String s5=s4.replace(" Java "," Phyton ");
         System.out.println(s5);
     }
 }

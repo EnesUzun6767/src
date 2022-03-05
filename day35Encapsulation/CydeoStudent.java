@@ -1,5 +1,7 @@
 package day35Encapsulation;
 
+import day34_GarbageCollection_AccesModifiers.Iphone;
+
 public class CydeoStudent {
     public String name;
     public char gender;
@@ -61,6 +63,8 @@ public class CydeoStudent {
 
 
 }
+
+
 
 /*
 2. create a class named CybertekStudent
