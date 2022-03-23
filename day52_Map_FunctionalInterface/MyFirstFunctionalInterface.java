@@ -1,5 +1,5 @@
 package day52_Map_FunctionalInterface;
 @FunctionalInterface
 public interface MyFirstFunctionalInterface {
-    void apply(int n);
+    public abstract void apply(int n);
 }

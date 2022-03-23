@@ -32,7 +32,6 @@ Shape shape2=new Circle(5);
 
         //Cat cat = (Cat) animal2;
         // cat.meow();
-
         ( (Cat) animal2 ).meow();
 
         // ( (Dog) animal2 ).bark();
@@ -54,8 +53,8 @@ Shape shape2=new Circle(5);
         System.out.println("----------------------------------------------------");
 
         Shape s1 = new Circle(10);
-        s1.area();
-        s1.perimeter();
+        System.out.println("s1.area() = " + s1.area());//circle method is written as an answer
+        System.out.println("s1.perimeter() = " + s1.perimeter());//circle method is written as an answer
 
         //  ( (Cube)s1 ).volume();
     }

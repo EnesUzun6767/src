@@ -60,9 +60,21 @@ public class ArrayOfMap {
         System.out.println(array.length);
 
         //  1.2 Print the names of all scrum masters
-
+        for (Map<String, String> scrumTeamArr : array) {
+            for (Map.Entry<String, String> pairs : scrumTeamArr.entrySet()) {
+                if(pairs.getValue().equals("SM")){
+                    System.out.println("SM= " + pairs.getKey());
+                }
+            }
+        }
         //    1.3 Print the names of all Developers
-
+        for (Map<String, String> scrumTeamArr : array) {
+            for (Map.Entry<String, String> pairs : scrumTeamArr.entrySet()) {
+                if(pairs.getValue().equals("Developer")){
+                    System.out.println("Developer= " + pairs.getKey());
+                }
+            }
+        }
     }
 }
 
